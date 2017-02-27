@@ -20,6 +20,7 @@
 		2CC4CCE41E5C104200FBFDD4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC4CCE31E5C104200FBFDD4 /* NotificationController.swift */; };
 		2CC4CCE61E5C104200FBFDD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC4CCE51E5C104200FBFDD4 /* Assets.xcassets */; };
 		2CC4CCEA1E5C104200FBFDD4 /* Weather_WatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2CC4CCCC1E5C104200FBFDD4 /* Weather_WatchApp.app */; };
+		2CC4CCF31E5C148D00FBFDD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC4CCE51E5C104200FBFDD4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -286,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CC4CCD21E5C104200FBFDD4 /* Assets.xcassets in Resources */,
+				2CC4CCF31E5C148D00FBFDD4 /* Assets.xcassets in Resources */,
 				2CC4CCD01E5C104200FBFDD4 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

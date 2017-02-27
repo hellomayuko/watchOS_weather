@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QeL-wL-thq">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QeL-wL-thq">
     <device id="watch38" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -37,11 +37,17 @@
             <objects>
                 <controller identifier="InterfaceController" id="QeL-wL-thq" customClass="InterfaceController" customModule="Weather_WatchApp_Extension">
                     <items>
-                        <label alignment="left" text="Location" id="0zC-br-eyS"/>
-                        <label alignment="left" text="Forecast" id="H3q-St-b7Y"/>
-                        <label alignment="left" text="Temp" id="sX0-0W-T6k"/>
+                        <label alignment="center" text="Location" textAlignment="center" id="0zC-br-eyS">
+                            <fontDescription key="font" type="system" pointSize="20"/>
+                        </label>
+                        <imageView alignment="center" id="55j-FF-Osr"/>
+                        <label alignment="center" text="Forecast" id="H3q-St-b7Y">
+                            <fontDescription key="font" type="system" pointSize="11"/>
+                        </label>
+                        <label height="50" alignment="center" text="Temp" id="sX0-0W-T6k"/>
                     </items>
                     <connections>
+                        <outlet property="forecastImage" destination="55j-FF-Osr" id="Ik8-vJ-Grk"/>
                         <outlet property="forecastLabel" destination="H3q-St-b7Y" id="FZ5-ar-IqE"/>
                         <outlet property="locationLabel" destination="0zC-br-eyS" id="nel-D4-UcZ"/>
                         <outlet property="tempLabel" destination="sX0-0W-T6k" id="sgH-sU-qTF"/>
